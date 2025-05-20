@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import PageTitle from "./components/PageTitle";
 
 import {
     BrowserRouter as Router,
@@ -20,10 +21,10 @@ function App() {
       
         <Header />
             <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/portfolio" element={<Portfolio />} />
-                <Route path="/contact" element={<Contact />} />
+                <Route exact path="/" element={<> <PageTitle title="Portfolio de Tritan Rogez" /> <Home /></>} />
+                <Route path="/about" element={<> <PageTitle title="Parcours de Tristan Rogez" /><About /></>} />
+                <Route path="/portfolio" element={<> <PageTitle title="Réalisations de Tristan Rogez" /><Portfolio /></>} />
+                <Route path="/contact" element={<> <PageTitle title="Contacter Tristan Rogez" /><Contact /></>} />
             </Routes>
           <Footer />
     </Router>
