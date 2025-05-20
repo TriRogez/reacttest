@@ -21,7 +21,7 @@ function App() {
       
         <Header />
             <Routes>
-                <Route exact path="/" element={<> <PageTitle title="Portfolio de Tritan Rogez" /> <Home /></>} />
+                <Route exact path="/" element={<> <PageTitle title="Portfolio de Tristan Rogez" /> <Home /></>} />
                 <Route path="/about" element={<> <PageTitle title="Parcours de Tristan Rogez" /><About /></>} />
                 <Route path="/portfolio" element={<> <PageTitle title="Réalisations de Tristan Rogez" /><Portfolio /></>} />
                 <Route path="/contact" element={<> <PageTitle title="Contacter Tristan Rogez" /><Contact /></>} />
