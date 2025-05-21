@@ -7,7 +7,7 @@ const About = () => {
                
                 <div class="container row align-items-center">
                     <div class="col text-center">
-                        <img src="./moi.jpg" class="img-fluid rounded-circle" />
+                        <img src="./moi.webp" class="img-fluid rounded-circle"style={{maxWidth: "300px"}} />
                     </div>
                     <div class="col">
                          <h1 class="fw-bold text-uppercase">A propos de moi.</h1>

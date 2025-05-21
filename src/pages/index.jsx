@@ -8,8 +8,8 @@ const Home = () => {
             <h1 class="fw-bold text-uppercase">Bienvenue sur mon Portfolio !</h1>
             <h2>Découvrez mon parcours et mes réalisations.</h2>
             <div class="d-flex gap-5">
-                <a class="btn btn-outline-light mt-4" href="/about">Mon Parcours</a>
-                <a class="btn btn-outline-light mt-4" href="/portfolio">Mon Portfolio</a>
+                <a class="btn btn-primary mt-4" href="/about">Mon Parcours</a>
+                <a class="btn btn-outline-primary mt-4" href="/portfolio">Mon Portfolio</a>
             </div>
             </section>
             
